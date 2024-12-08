@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> grid </title>
+
+    <style>
+ * {
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    justify-content: center;
+}
+
+.nav1 {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: larger;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+
+.nav1 li a{
+    float: end;
+    color: white
+}
+
+.nav input {
+    width: 300px;
+    height: 50px;
+}
+
+
+.nav2 {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: larger;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav2,
+.nav1,
+a:hover {
+    color: white;
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1rem;
+    justify-content: space-around;
+}
+
+main div img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+
+.nav3 {
+    background-color: black;
+    color: white;
+    height: 60px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.nav4 {
+    background-color: black;
+    color: white;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-content: center;
+}
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <nav class="nav1">
+
+            <li> <img src="./assets/download.png" height="50px" width="100px"></li>
+            <li> <input type="text" placeholder="SearchBar" size="40"></li>
+            <li> <a href="./login/register.com"> Login/Register</a></li>
+        </nav>
+
+        <nav class="nav2">
+            <li> <a href="lips">Lips</a></li>
+            <li> <a href=" Eye">Eyes</a></li>
+            <li> <a href="face">Face</a></li>
+            <li> <a href="skin care"> Skincare</a></li>
+            <li> <a href="accessories"> accessories</a></li>
+            <li> <a href="Giftings"> Giftings</a></li>
+            <li> <a href="Offers"> Offers</a></li>
+            <li> <a href="New lanch"> New lanch</a></li>
+        </nav>
+
+        <div class="item i1"> <img src="./assets/big imagw.jpg"></div>
+
+        <main>
+
+            <div> <img src="./assets/im3.webp">
+                <center>
+                    <p> Minimize Primer</p>
+                    <p> <b> MRP <s>900</s> price 846 </b> </p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im2.webp">
+                <center>
+                    <p> Compact</p>
+                    <p> <b> MRP 549</b></p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im3.webp">
+                <center>
+                    <p> Glosy Pore Minimizer</p>
+                    <p> <b> MRP 659 </b></p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im5.webp">
+                <center>
+                    <p> powder blush </p>
+                    <p> <b> MRP 499 </b></p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im8.webp">
+                <center>
+                    <p> Eyeliner</p>
+                    <p> <b> MRP 599 </b></p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im9.webp">
+                <center>
+                    <p> Sugar cosmetic kit</p>
+                    <p> <b> MRP 2999 </b></p>
+                </center>
+            </div>
+
+            <div> <img src="assets/im1.webp">
+            <center>
+                    <p> Sugar lipstick</p>
+                    <p> <b> MRP 599 </b></p>
+                </center>
+            </div>
+
+            <div> <img src="./assets/im9.webp">
+                <center>
+                    <p> Sugar cosmetic small kit</p>
+                    <p> <b> MRP 1599 </b></p>
+                </center>
+            </div>
+
+
+
+
+
+        </main>
+        <nav class="nav3">
+
+            <li> <a href="store">Store</a></li>
+            <li> <a href=" Elite">Elite</a></li>
+            <li> <a href="Terms & Condition"> Terms & Condition</a></li>
+            <li> <a href="returns"> Returns</a></li>
+            <li> <a href="FAQ"> FAQs</a></li>
+            <li> <a href="About"> About us</a></li>
+
+        </nav>
+        <hr>
+
+        <nav class="nav4">
+            <h1> GET IN TOUCH</h1><br><br>
+            <li> <a href=" 1800-209-9988">Call us <br> 1800-209-9988</a></li>
+            <li> <a href="sugarcosmetics.com"> sugarcosmetics.com</a></li>
+            <li> <a href="Career"> career<br> we r hiring!</a></li>
+            <li> <a href="press"> press<br> pr@sugarcosmetics</a></li>
+            <li> <a href="influencer collab"> influencer collab <br> join us </a></li>
+            </nav4>
+    </div>
+
+</body>
+
+</html>
